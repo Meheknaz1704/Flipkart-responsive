@@ -50,8 +50,9 @@
     .m1 img{
         width: 100%;
         height: 140px;
+        object-fit: cover;
         position: relative;
-        bottom: 93px;
+        bottom: 186px;
     }
     .container img{
         width: 70px;
