@@ -1,0 +1,253 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .container1{
+        background-color:#1e88e5;
+        width: 100%;
+        height: 87px;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+ 
+    }
+    .flipkart img{
+        width: 87px;
+        height: 31px;
+        object-fit: cover;
+        margin-top: 11px;
+        margin-left: 23px;  
+    }
+    input {
+        width:287px;
+        height: 33px;
+        padding-left: 9px;
+        margin-top: 5px;
+        margin-left: 21px;
+    }
+    .cart img{
+        position: relative;
+        top: -73px;
+        left: 322px;
+    }
+    button{
+        display: none;
+    }
+    .more button {
+        display: none;
+    }
+    .cart1{
+        display: none;
+    }
+    .icon img{
+        width: 22px;
+        position: relative;
+        left: 275px;
+        top: -58px;
+    }
+    .m1 img{
+        width: 100%;
+        height: 140px;
+        position: relative;
+        bottom: 93px;
+    }
+    .container img{
+        width: 70px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        position: relative;
+        top: 242px;
+    }
+    .top{
+        font-size: 24px;
+        margin-top: 91px;
+    }
+    .view button{
+        display: none;
+    }
+    .offers img{
+        width:100px;
+    }
+    .offers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .offers1 img{
+         width:150px;
+         
+         object-fit: cover;
+    }
+    .offers1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+ 
+  .flip{
+      position: absolute;
+      top: -6px;
+  }
+
+  @media (min-width:768px) {
+      .container1{
+          height: 63px;
+      }
+      .flipkart img{
+          width: 96px;
+          margin-left:75px ;
+      }
+      input{
+          width: 311px;
+          height: 42px;
+          position: relative;
+          top: -41px;
+          left: 168px;
+          border-color: transparent;
+      }
+      .icon img{
+          position: relative;
+          left: 462px;
+          top: -185px;
+      }
+      button{
+          display: block;
+          position: relative;
+          bottom: 79px;
+          left: 525px;
+          width: 65px;
+          height: 30px;
+          background-color:white ;
+         border-color: transparent;
+         color:#1e88e5 ;
+      }
+      .more button {
+          display: block;
+          position: relative;
+          left: 602px;
+          top: -110px;
+          background-color: #1e88e5;
+          color: white;
+          font-size: 15px;
+      }
+      .cart img{
+          width: 30px;
+          position: relative;
+          left: 672px;
+          top: -143px;
+          
+      }
+      .cart1{
+          display: block;
+          position: relative;
+          top: -167px;
+          left: 710px;
+          color: white;
+          font-family: sans-serif;
+      }
+      .container img{
+          width: 80px;
+     }
+     .container{
+          position: relative;
+          top: 78px;
+          font-family: sans-serif;
+          color:#3e2723;
+          font-size: 14px;
+      }
+      .m1 img{
+          width: 100%;
+          height:280px;
+          position:relative;
+          top: 93px;
+      }
+      .top{
+          margin-top: 107px;
+          font-size: 25px;
+          font-family: sans-serif;
+      }
+      .view button{
+          display: block;
+          position: relative;
+          left: 125px;
+          bottom:30px;
+          background-color: #1e88e5;
+          color: #ffff;
+         
+      }
+      .offers img{
+          width: 150px;
+          
+        }
+          .offers{
+          font-family:sans-serif ;
+          margin-top: 1px;
+      }
+      .offers1 img{
+         width: 170px;
+         height: 80px;
+         object-fit: cover;
+         margin-top: 10px;
+      }
+  }
+
+
+@media (min-width:1024px) {
+    .flipkart img{
+        position: relative;
+        left: 56px;
+        height: 35px;
+    }
+    
+    input{
+        width: 365px;
+        position: relative;
+        left: 231px;
+    }
+    .icon img{
+        position: relative;
+        left: 569px;
+    }
+    button{
+        position: relative;
+        left: 643px;
+    }
+    .more button{
+        position: relative;
+        left:728px ;
+    }
+    .cart img{
+        position: relative;
+        left: 826px;
+    }
+    .cart1{
+        position: relative;
+        left: 865px;
+    }
+    .top{
+        margin-left: 15px;
+    }
+    .view button{
+        position: relative;
+        left: 135px;
+    }
+    .offers img{
+        width: 180px;
+    }
+    .offers1 img{
+        width: 230px;
+        /* height: 100px; */
+        margin-top: -10px;
+    }
+}
+
+
+  
