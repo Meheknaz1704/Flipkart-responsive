@@ -233,6 +233,9 @@
         position: relative;
         left: 865px;
     }
+    .m1 img{
+        width: 100vw;
+    }
     .top{
         margin-left: 15px;
     }
